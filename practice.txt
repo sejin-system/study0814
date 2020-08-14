@@ -1,0 +1,2 @@
+ {pratice 1} c program for sum from 1 to n
+
