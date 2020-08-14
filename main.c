@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "sum.h"
 
 int main()
 {	int n, s;
@@ -11,7 +12,7 @@ int main()
 
 	}while(n <= 0);
 
-	s = n*(n+1)/2;
+	s = sum(n);
 
 	printf("%d\n", s);	
        
