@@ -3,16 +3,20 @@
 int main()
 {	int n, s;
 
-	printf("n = ?\n");
+	do{
+		printf("n = ?\n");
 
-	scanf("%d", &n);
-	
-	if(n>0){
-		s = n*(n+1)/2;
-		printf("%d\n", s);
-	}
+		scanf("%d", &n);
 
-	else printf("프로그램 종료\n");
+		break;
+
+	}while(n>0);
+
+	s = n*(n+1)/2;
+
+	printf("%d\n", s);	
+       
+	printf("프로그램 종료\n");
 
 	return 0;
 }
