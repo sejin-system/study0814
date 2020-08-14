@@ -7,10 +7,9 @@ int main()
 		printf("n = ?\n");
 
 		scanf("%d", &n);
+		
 
-		break;
-
-	}while(n>0);
+	}while(n<0);
 
 	s = n*(n+1)/2;
 
